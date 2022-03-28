@@ -4,7 +4,7 @@ int sum(int n1=0, int n2=0, int n3=0, int n4=0) ;
 int main(void)
 {
     int res=0;
-    res= sum(10,20,30, 40);//        n1=10   n2=20   n3=30   n4=40
+    res= sum(10,20,50, 40);//        n1=10   n2=20   n3=30   n4=40
     cout<<"res="<<res<<endl;
     
     res= sum(10,20,30);  //sum(,10,20,30);
